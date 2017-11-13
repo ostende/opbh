@@ -968,7 +968,7 @@ class BhSpeedUp(Screen, ConfigListScreen):
 		
 		machine = self.nab_Detect_Machine()		
 		if machine != "vusolo" and not machine.endswith("4k"):
-			self.pluglist.append(["Opera browser & HbbTV", "enigma2-plugin-extensions-hbbtv"])
+			self.pluglist.append(["Opera, Youtube & HbbTV", "enigma2-plugin-extensions-hbbtv"])
 		elif machine.endswith("4k"):
 			self.pluglist.append(["Chromium Browser & HbbTV", "webkit-hbbtv-browser-"+ machine ])
 			
